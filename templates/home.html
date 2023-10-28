@@ -6,7 +6,7 @@
 {% block nav %}
   <form class="d-flex">
     <a href="{% url 'todo_add' %}"><button class="btn btn-outline-primary mx-3" type="submit">Add Todo</button></a>
-    <a href="logout"><button class="btn btn-outline-success mx-1" type="submit">Logout</button></a>
+    <a href="{% url 'logoutpage' %}"><button class="btn btn-outline-success mx-1" type="submit">Logout</button></a>
   </form>
 {% endblock %}
 

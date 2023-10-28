@@ -111,7 +111,6 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 # AUTH_USER_MODEL='todoapp.User'
 
-LOGIN_URL = '/login'
 
 
 TIME_ZONE = 'UTC'
@@ -133,6 +132,6 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = "home"
-LOGOUT_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "logoutpage"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
